@@ -12,7 +12,7 @@ from db_taskmanager import init_db, add_task, load_user_tasks, delete_task
 logging.basicConfig(level=logging.INFO)
 
 # Токен API бота
-API_TOKEN = "7065691771:AAFBdI5uUK5lV9LWLe5YOstzZurzSIryC6M"
+API_TOKEN = "ваш токен"
 
 # Инициализация объектов бота и диспетчера
 bot = Bot(token=API_TOKEN)
